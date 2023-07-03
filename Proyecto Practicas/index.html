@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header class="hero">
+        <section>
+            <h1 class="title">Burgery</h1>
+        </section>
+        <div class="hero_contenido">
+            <p>Pedi con nosotros</p>
+            <a href="#" class="hero_boton">Iniciar Sesion</a>
+            <a href="#" class="crear_open">Crear Cuenta</a>    
+        </div>
+    </header>
+
+
+    <!-- FORMULARIO INICIAR SESION -->
+
+    <section class="modal">
+         <div class="modal_container">
+            <img src="img/comida.png" alt="comidaModal" class="modal_img">
+            <h2 class="modal_title">Iniciar Sesion</h2>
+            <form action="">
+                <input class="modal_input" type="email" id="email" name="email" placeholder="Ingrese su E-mail">
+                <input class="modal_input" type="text" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+            </form>
+            <a href="pedido.html" class="modal_aceptar">Ingresar</a>
+            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-2130371676%3A1688402526420983&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fhl%3Des-419&emr=1&hl=es-419&ifkv=AeDOFXihOxPHAmYgXhUmLohuisec7ggD4Mby1Fpr0r2Lr7zYV-nO8LBp2-ExAT5c2ccoltfDoKZT2A&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google">
+                <img src="img/google.png" alt="" class="google_img">
+            </a>
+        
+        </div>
+    </section>
+
+
+    <!-- FORMULARIO CREAR CUENTA-->
+
+    <section class="crear">
+        <div class="crear_container">
+            <img src="img/comida.png" alt="comidaModal" class="modal_img">
+                
+            <h2 class="crear_title">Registrarse</h2>
+
+            <form action="">
+                <input class="crear_input" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+                <input class="crear_input" type="text" name="apellido" placeholder="Ingrese su Apellido">
+                <input class="crear_input" type="email" id="email" name="email" placeholder="Ingrese su E-mail">
+                <input class="crear_input" type="number" name="telefono" id="numero" placeholder="Ingresa tu télefono">
+                <input class="crear_input" type="text" name="direccion" id="contraseña" placeholder="Ingresa tu Direccion">
+                <input class="crear_input" type="text" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+                <input class="crear_input" type="text" name="contraseña" id="contraseña" placeholder="Repita su Contraseña">
+            </form>
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-2130371676%3A1688402526420983&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fhl%3Des-419&emr=1&hl=es-419&ifkv=AeDOFXihOxPHAmYgXhUmLohuisec7ggD4Mby1Fpr0r2Lr7zYV-nO8LBp2-ExAT5c2ccoltfDoKZT2A&ltmpl=default&ltmplcache=2&osid=1&passive=true&rm=false&scc=1&service=mail&ss=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google">
+                    <img src="img/google.png" alt="" class="google_img">
+                </a>
+                <a href="pedido.html" class="crear_aceptar">Crear</a>
+        </div>
+    </section>
+       
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <h2>@BurgeryMDZ</h2>
+    </footer>
+
+    <!-- SCRIPT -->
+
+     <script src="JavaScript/script.js"></script>
+</body>
+</html>
